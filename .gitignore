@@ -1,0 +1,43 @@
+# Ignore IntelliJ IDEA project files
+.idea/
+*.iml
+*.iws
+
+# Ignore build files
+/out/
+/target/
+*/build/
+
+# Ignore dependency directories
+/.mvn/
+**/node_modules/
+
+# Ignore logs and temp files
+*.log
+hs_err_pid*.log
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore compiled Java classes
+*.class
+
+# Ignore JAR, WAR, and other packaged binaries
+*.jar
+*.war
+*.ear
+
+# Ignore Maven and Gradle-specific files
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.next
+pom.xml.bak
+pom.xml.*
+build/
+!src/main/resources/
+!src/test/resources/
+
+# Ignore local environment files
+*.env
+*.local
