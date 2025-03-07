@@ -11,3 +11,14 @@ Simple java application to simulate real time stock market
 - [x] Implementing Lock-Free Data Structures.
 - [x] "matchOrder" function  Time Complexity = "O(n)";
 
+
+### Steps to run 
+```
+javac -d out *.java
+java  -cp out StockMarketEngine
+```
+
+
+### 
+Thank you
+
