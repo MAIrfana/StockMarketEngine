@@ -1,5 +1,4 @@
 import java.util.*;
-
 public class StockSimulator {
     public static final int TICKER_COUNT = 1024;
     public static final Random RANDOM = new Random();
@@ -18,6 +17,11 @@ public class StockSimulator {
             double price = 10 + (490 * RANDOM.nextDouble());
 
             System.out.println(ticker+" "+type+" "+" "+quantity+" "+price);
+            try {
+                Thread.sleep((long) (10 + RANDOM.nextDouble() * 500));
+            }catch (InterruptedException e){
+                Thread.currentThread().interrupt();
+            }
         }
     }
 }
